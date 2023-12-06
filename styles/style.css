@@ -1,0 +1,86 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles and utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* carousel styles */
+.carousel-item .btn {
+    font-weight: 700;
+}
+/* precious moment styles  */
+.precious-moment .row p {
+    color: #6C6C6C;
+}
+
+.precious-moment .row .btn {
+    font-weight: 700;
+}
+
+.toast-container {
+    top: 60%;
+}
+
+.toast-container .toast {
+    border-left: 10px solid rgb(26, 114, 197);
+}
+
+/* packages styles */
+.card .card-body h4, .card .card-body h5 {
+    color: #231D4F;
+}
+
+.packages .card {
+    border: 0px;
+}
+
+.packages .card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.packages .card ul li, .packages .card .card-body p {
+    color: #7a7597;
+}
+
+.packages .card .btn {
+    background-color: #eebcdc;
+    color: #0158db;
+    font-weight: 700;
+}
+
+.packages .card span {
+    left: 85%;
+}
+
+.happy-clients .row .card p {
+    color: #6C6C6C;
+}
+
+/* frequently questions */
+.accordion-body {
+    color: #7E848C;
+}
+
+@media screen and (max-width: 576px){
+    /* carousel styles */
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .carousel-caption p{
+        font-size: 12px;
+        line-height: 12px;
+        padding-bottom: 5px;
+    }
+
+    /* toast */
+    .toast-container {
+        top: 28%;
+    }
+}
